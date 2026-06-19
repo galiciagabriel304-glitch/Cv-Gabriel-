@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Time Zones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 Global Time Zones</h1>
+            <p class="subtitle">View current time across the world</p>
+        </div>
+
+        <div class="controls">
+            <div class="timezone-input">
+                <input type="text" id="timezoneInput" placeholder="Enter timezone (e.g., America/New_York)" />
+                <button id="addBtn">Add Timezone</button>
+            </div>
+            <button id="resetBtn" class="reset-btn">Reset to Default</button>
+        </div>
+
+        <div class="clocks-container" id="clocksContainer">
+            <!-- Clocks will be dynamically added here -->
+        </div>
+
+        <div class="info">
+            <h3>Popular Timezones:</h3>
+            <p>America/New_York • Europe/London • Europe/Paris • Asia/Tokyo • Australia/Sydney • Asia/Dubai • America/Los_Angeles</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
